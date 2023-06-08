@@ -1,0 +1,97 @@
+.menu li:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: 0.3s;
+    background-color: rgb(9, 121, 173);
+  }
+  .menu li:hover::after {
+    width: 100%;
+    font-weight: 40;
+    
+  }
+  .download-icon{
+    height: 44px;
+    width: auto;
+    
+  }
+  h1{
+    background:-webkit-linear-gradient(#0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+  }
+  .sub-head{
+    color: rgb(89,89,89);
+    font-size: 20px;
+   
+
+  }
+  .form-txbox{
+width: 10px;
+border-radius: 10px;;
+  }
+  .clrd-text{
+    color: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+
+  }
+  .footer-words{
+    font-weight: 400;
+    font-size:15px;
+  }
+  .logo-img{
+   height: 40px;
+   
+  }
+
+@media screen and(min-width: 1024px){
+   .clrd-text{ font-size :90px;
+    letter-spacing: -4px;
+    line-height: 85px;
+    margin-bottom: 0;
+    text-align: left;
+   }
+   .titl-para{
+   font-size: 90px;
+    letter-spacing: -4px;
+    line-height: 85px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer-words{
+    font-size: 15px;
+}
+}
+
+.hvr-button{
+  margin-bottom: 20px;
+}
+@media screen and(min-width: 768px){
+  .titl-para{
+    font-size: 90px;
+     letter-spacing: -4px;
+     line-height: 85px;
+     margin-bottom: 0;
+     text-align: center;
+  }
+
+  .download-icon{
+    height: 22px;
+  
+   
+}
+.sub-head{
+  text-align: center;
+}
+.footer-words{
+  font-size: 13px;
+
+}
+}
+@media screen and(max-width: 1198px){ 
+
+  .download-icon{
+    height: 22px;
+}
+}
+      
